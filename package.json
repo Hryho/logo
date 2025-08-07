@@ -1,0 +1,14 @@
+{
+  "name": "logo",
+  "version": "1.0.0",
+  "description": "Simple quiz app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No tests\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

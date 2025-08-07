@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Admin</title>
+  <style>
+    body { font-family: sans-serif; }
+  </style>
+</head>
+<body>
+  <div id="login">
+    <h2>Admin Login</h2>
+    <input id="user" type="text" placeholder="Login"><br>
+    <input id="pass" type="password" placeholder="Password"><br>
+    <button id="loginBtn">Login</button>
+  </div>
+  <div id="panel" style="display:none;">
+    <h2>Questions</h2>
+    <ul id="qList"></ul>
+    <h3>Add Question</h3>
+    <input id="newQ" placeholder="Question"><br>
+    <input id="newA" placeholder="Answer"><br>
+    <button id="addBtn">Add</button>
+  </div>
+  <script src="admin.js"></script>
+</body>
+</html>
